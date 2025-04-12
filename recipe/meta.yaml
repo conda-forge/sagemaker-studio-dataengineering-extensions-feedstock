@@ -1,5 +1,5 @@
 {% set name = "sagemaker-studio-dataengineering-extensions" %}
-{% set version = "1.0.8" %}
+{% set version = "1.0.9" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sagemaker_studio_dataengineering_extensions-{{ version }}.tar.gz
-  sha256: 8f42d31d5d73c2b959352525c42bacad2a7718e4127a36ee408149fb1fe77bf2
+  sha256: 9631fb5ffba00e9050f93dba9b31d322965353a4985f5f691a34cdfffa1233c1
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv 
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
   number: 0
 
 requirements:
@@ -38,9 +38,9 @@ requirements:
 test:
   imports:
     - sagemaker_data_explorer
-    - sagemaker_jupyter_server_extension 
-    - sagemaker_sparkmonitor 
-    - sagemaker_ui_doc_manager_jl_plugin 
+    - sagemaker_jupyter_server_extension
+    - sagemaker_sparkmonitor
+    - sagemaker_ui_doc_manager_jl_plugin
     - sagemaker_ui_theme
   commands:
     - pip check
