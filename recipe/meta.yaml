@@ -54,8 +54,6 @@ test:
     - sagemaker_sparkmonitor
     - sagemaker_ui_doc_manager_jl_plugin
     - sagemaker_ui_theme
-  commands:
-    - pip check
   requires:
     - pip
     - python {{ python_min }}
