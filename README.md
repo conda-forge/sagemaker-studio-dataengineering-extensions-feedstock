@@ -13,11 +13,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=24988&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sagemaker-studio-dataengineering-extensions-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
@@ -148,7 +147,4 @@ Feedstock Maintainers
 * [@Xinchen5](https://github.com/Xinchen5/)
 * [@freddylyu173](https://github.com/freddylyu173/)
 * [@yzhum](https://github.com/yzhum/)
-
-
-<!-- dummy commit to enable rerendering -->
 
