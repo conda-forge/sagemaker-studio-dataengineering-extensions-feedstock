@@ -146,5 +146,6 @@ Feedstock Maintainers
 * [@Jas0nch](https://github.com/Jas0nch/)
 * [@Xinchen5](https://github.com/Xinchen5/)
 * [@freddylyu173](https://github.com/freddylyu173/)
+* [@tchenlin](https://github.com/tchenlin/)
 * [@yzhum](https://github.com/yzhum/)
 
