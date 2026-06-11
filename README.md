@@ -16,7 +16,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/sagemaker-studio-dataengineering-extensions-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/sagemaker-studio-dataengineering-extensions-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -148,7 +150,4 @@ Feedstock Maintainers
 * [@freddylyu173](https://github.com/freddylyu173/)
 * [@tchenlin](https://github.com/tchenlin/)
 * [@yzhum](https://github.com/yzhum/)
-
-
-<!-- dummy commit to enable rerendering -->
 
