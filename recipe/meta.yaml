@@ -1,7 +1,7 @@
 {% set name = "sagemaker-studio-dataengineering-extensions" %}
-{% set version = "1.3.13" %}
+{% set version = "1.3.14" %}
 {% set python_min = "3.11" %}
-{% set sha256 = "da97d3f89294ea1484a41d9c012d654d708bcf7b72dfe4eb40971b3783e0848d" %}
+{% set sha256 = "ddda67282aacce7098daa431949c3073e5e80644dc1523dcb91a6aeb58af5ea0" %}
 {% set blake2b256 = "3abb36ffe97e151365aa06c61df8c6f9cec22955aee50b3cff1522e8693b359b" %}
 
 package:
@@ -9,7 +9,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/27/4a/7c32ed2a4890d58088d9b16206debf905137186f048bfdd079fb475eb911/sagemaker_studio_dataengineering_extensions-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/38/93/a95461fdc4458c545091b0b2a2941f1223ef1d4a37f39575a8ff6a1ad2f0/sagemaker_studio_dataengineering_extensions-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
